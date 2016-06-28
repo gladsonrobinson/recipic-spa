@@ -1,0 +1,5 @@
+{
+  "development": {
+    "DEFAULT_HTML5_BASE_TAG": "/"
+  }
+}

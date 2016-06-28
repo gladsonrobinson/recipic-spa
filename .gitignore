@@ -1,0 +1,20 @@
+# Specifies intentionally untracked files to ignore when using Git
+
+www/css/
+node_modules/
+platforms/
+plugins/
+.idea
+www/lib/
+www/config/
+
+coverage
+bower_components
+*.swp
+.tmp
+dist
+www/serve/app.min.css
+*.DS_Store
+*~
+\#*#
+.#*

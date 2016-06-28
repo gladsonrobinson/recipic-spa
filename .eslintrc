@@ -1,0 +1,47 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "angular": true,
+    "ionic": true,
+    "moment": true,
+    "R": true,
+    "inject": true,
+    "Q": true,
+    "sinon": true,
+    "getService": true,
+    "expect": true,
+    "xit": true,
+    "chai": true
+  },
+  "rules": {
+    "one-var": [2, "never"],
+    "camelcase": 0,
+    "curly": 2,
+    "brace-style": [2, "1tbs"],
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "space-in-brackets": [2, "never"],
+    "space-infix-ops": 2,
+    "space-after-keywords": [2, "always"],
+    "dot-notation": 2,
+    "eqeqeq": [2, "smart"],
+    "no-redeclare": 2,
+    "no-inner-declarations": "both",
+    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
+    "no-floating-decimal": 2,
+    "no-spaced-func": 2,
+    "no-extra-parens": 0,
+    "no-underscore-dangle": 0,
+    "valid-jsdoc": 0,
+    "max-len": [2, 180],
+    "no-use-before-define": [2, "nofunc"],
+    "no-warning-comments": 0,
+    "strict": 2,
+    "eol-last": 0
+  }
+}
+

@@ -1,0 +1,9 @@
+<div class="rec-ingredient-container">
+  <div ng-repeat="ingredient in ingredientListController.ingredients">
+    <div class="rec-ingredient-item"
+      toggle-class="rec-ingredient-item--active"
+      ng-click="ingredientListController.selectedIngredient({value:ingredient._id, event: $event})">
+      {{ ingredient.ingredient }} +
+    </div>
+  </div>
+</div>

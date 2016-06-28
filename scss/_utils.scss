@@ -1,0 +1,12 @@
+// Utility styles.
+
+.u-all-caps {
+  text-transform: uppercase;
+}
+
+.u-scroll-floater {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}

@@ -1,0 +1,16 @@
+@import 'scss/colors';
+
+@import 'www/components/footer/footer';
+@import 'www/components/recipi-list/recipi-list';
+@import 'www/components/ingredient-list/ingredient-list';
+@import 'www/components/navbar/navbar';
+
+body {
+  background: $lightest-grey;
+}
+
+html {
+  background: $white;
+}
+
+

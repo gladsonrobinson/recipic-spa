@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="recipic"
+  ng-cloak
+  ng-controller="IndexController as indexCtrl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title ng-bind="indexCtrl.tittle">
+  </title>
+
+  <base href="%HTML5:DEFAULT:BASE:HREF%">
+
+  <!-- run `gulp wiredep` to automaticaly populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+  <!-- inject:css -->
+  <!-- css files will be automaticaly insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+
+<body>
+
+  <rec-nav-bar>
+  </rec-nav-bar>
+
+  <ui-view name="main">
+  </ui-view>
+
+  <rec-footer>
+  </rec-footer>
+
+  <!-- build:js({.tmp/serve,www,src,.tmp/partials}) scripts/app.js -->
+  <!-- bower:js -->
+  <!-- run `gulp wiredep` to automaticaly populate bower script dependencies -->
+  <!-- endbower -->
+
+  <!-- inject:js -->
+  <!-- endinject -->
+  <!-- endbuild -->
+</body>
+
+</html>

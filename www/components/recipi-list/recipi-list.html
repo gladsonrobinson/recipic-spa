@@ -1,0 +1,12 @@
+<div class="rec-recipi-list">
+  <div ng-repeat="recipiItem in recListController.recipiList track by $index"
+    class="rec-recipi-list-item">
+    <div class="rec-recipi-list-item__image-size-placeholder">
+      <img class="rec-recipi-list-item__image"
+        ng-src="{{ recipiItem.image_url }}">
+    </div>
+    <div class="rec-recipi-list-item__tittle">
+      {{recipiItem.recipe_title}}
+    </div>
+  </div>
+</div>
